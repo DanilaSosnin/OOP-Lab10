@@ -1,0 +1,54 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.bordered-cells {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+.form-section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #999;
+    background-color: #DDD;
+}
+input {
+    height: 30px;
+    font-size: 18px;
+    width: 90%;
+}
+.non-border-table {
+    border: none;
+}
+.btn {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #BBB;
+    transition: all 0.1s ease;
+}
+
+.del-btn {
+    background-color: #B77;
+}
+
+.btn:hover {
+    background-color: #999;
+}
+
+.del-btn:hover {
+    background-color: #955;
+}
+
+.thead {
+    background-color: #CCC;
+}
+
+.add-btn {
+    background-color: #3C3;
+}
+
+.add-btn:hover {
+    background-color: #282;
+}
